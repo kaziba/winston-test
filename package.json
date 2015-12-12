@@ -1,0 +1,19 @@
+{
+  "name": "winston-test",
+  "version": "1.0.0",
+  "description": "winston test",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm i && npm run complie",
+    "start": "node build/index",
+    "complie": "coffee -o build/ src/",
+    "dev": "coffee -o build/ -w src/"
+  },
+  "keywords": [],
+  "author": "eiurur",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^2.1.1"
+  }
+}
