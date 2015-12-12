@@ -1,6 +1,6 @@
 path    = require 'path'
 winston = require 'winston'
-mkdirp = require 'mkdirp'
+mkdirp  = require 'mkdirp'
 
 LOG_DIR_NAME = 'logs'
 
