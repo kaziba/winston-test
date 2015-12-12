@@ -19,3 +19,4 @@ logger = new(winston.Logger)(
 logger.log 'info', 'Hello distributed log files!'
 logger.info 'Hello distributed logs!'
 logger.error {name: 'syaro', age: 15}
+logger.error [{name: 'rize', age: 16}, {name: 'cocoa', age: 15}]
