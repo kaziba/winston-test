@@ -14,6 +14,7 @@
   "author": "eiurur",
   "license": "MIT",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "winston": "^2.1.1"
   }
 }
